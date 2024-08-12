@@ -1,0 +1,144 @@
+/* ==============================
+ common css
+============================= */
+
+a{
+    text-decoration: none;
+}
+/* ==============================
+ common css
+============================= */
+
+/* ==============================
+
+Navber part start
+================================= */
+nav{
+   
+    padding: 18px 0px;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    transition: .4s;
+
+}
+.nav-link:hover{
+    color: #E5745D;
+}
+.navberbtn{
+    background: #E5745D;
+    padding: 22px 44px;
+    margin: 24px 46px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    position: relative;
+}
+.navberbtn::after {
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    height: 60px;
+    width: 184px;
+    border: 1px solid rgb(255, 255, 255);
+    content: "";
+}
+/* ==============================
+
+Navber part end
+================================= */
+/* ==============================
+
+Banner part start
+================================= */
+
+.banner{
+    background: #00413D;
+    padding: 220px 0px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.overly{
+    width: 40%;
+    height: 100%;
+    background-image: url('../../images/images.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: -40%;
+    transition: .6s;
+}
+
+.banner:hover .overly{
+    right: 0;
+
+}
+
+.banner h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Vollkorn", serif;
+    
+}
+.banner h1 span{
+    display: block;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #aba5a5;
+    font-family: "Jost", sans-serif;
+    width: 670px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+}
+.banner p span{
+   
+    color: #ffffff;
+    font-weight: 600;
+   
+}
+.commonBtn{
+    background: #E5745D;
+    width: 180px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    position: relative;
+}
+.commonBtn::after {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    content: "";
+    height: 56px;
+    width: 172px;
+    border: 1px solid white;
+}
+ .commonBtn a{
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+
+}
+
+/* ==============================
+
+Banner part end
+================================= */
