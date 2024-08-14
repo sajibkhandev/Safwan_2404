@@ -2,8 +2,27 @@
  common css
 ============================= */
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+}
+.title h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5745d;
+  font-family: "Vollkorn", serif;
+}
+.title h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+  width: 524px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  padding-top: 11px;
 }
 /* ==============================
  common css
@@ -13,45 +32,43 @@ a{
 
 Navber part start
 ================================= */
-nav{
-   
-    padding: 18px 0px;
+nav {
+  padding: 18px 0px;
 }
-.navbar-nav{
-    column-gap: 50px;
+.navbar-nav {
+  column-gap: 50px;
 }
 
-.nav-link{
-    font-size: 18px;
-    font-weight: 400;
-    color: #00413D;
-    font-family: "Jost", sans-serif;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    transition: .4s;
-
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #00413d;
+  font-family: "Jost", sans-serif;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  transition: 0.4s;
 }
-.nav-link:hover{
-    color: #E5745D;
+.nav-link:hover {
+  color: #e5745d;
 }
-.navberbtn{
-    background: #E5745D;
-    padding: 22px 44px;
-    margin: 24px 46px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    font-family: "Jost", sans-serif;
-    position: relative;
+.navberbtn {
+  background: #e5745d;
+  padding: 22px 44px;
+  margin: 24px 46px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  position: relative;
 }
 .navberbtn::after {
-    position: absolute;
-    left: 7px;
-    top: 5px;
-    height: 60px;
-    width: 184px;
-    border: 1px solid rgb(255, 255, 255);
-    content: "";
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  height: 60px;
+  width: 184px;
+  border: 1px solid rgb(255, 255, 255);
+  content: "";
 }
 /* ==============================
 
@@ -62,83 +79,128 @@ Navber part end
 Banner part start
 ================================= */
 
-.banner{
-    background: #00413D;
-    padding: 220px 0px;
-    position: relative;
-    overflow: hidden;
-    
+.banner {
+  background: #00413d;
+  padding: 220px 0px;
+  position: relative;
+  overflow: hidden;
 }
-.overly{
-    width: 40%;
-    height: 100%;
-    background-image: url('../../images/images.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: -40%;
-    transition: .6s;
-}
-
-.banner:hover .overly{
-    right: 0;
-
+.overly {
+  width: 40%;
+  height: 100%;
+  background-image: url("../../images/images.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  transition: 0.6s;
 }
 
-.banner h1{
-    font-size: 100px;
-    font-weight: 700;
-    color: #fff;
-    font-family: "Vollkorn", serif;
-    
+.banner:hover .overly {
+  right: 0;
 }
-.banner h1 span{
-    display: block;
+
+.banner h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Vollkorn", serif;
 }
-.banner p{
-    font-size: 20px;
-    font-weight: 400;
-    color: #aba5a5;
-    font-family: "Jost", sans-serif;
-    width: 670px;
-    padding-top: 14px;
-    padding-bottom: 50px;
+.banner h1 span {
+  display: block;
 }
-.banner p span{
-   
-    color: #ffffff;
-    font-weight: 600;
-   
+.banner p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #aba5a5;
+  font-family: "Jost", sans-serif;
+  width: 670px;
+  padding-top: 14px;
+  padding-bottom: 50px;
 }
-.commonBtn{
-    background: #E5745D;
-    width: 180px;
-    height: 64px;
-    line-height: 64px;
-    text-align: center;
-    position: relative;
+.banner p span {
+  color: #ffffff;
+  font-weight: 600;
+}
+.commonBtn {
+  background: #e5745d;
+  width: 180px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  position: relative;
 }
 .commonBtn::after {
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    content: "";
-    height: 56px;
-    width: 172px;
-    border: 1px solid white;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  content: "";
+  height: 56px;
+  width: 172px;
+  border: 1px solid white;
 }
- .commonBtn a{
-    
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    font-family: "Jost", sans-serif;
-
+.commonBtn a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Jost", sans-serif;
 }
 
 /* ==============================
 
 Banner part end
+================================= */
+/* ==============================
+
+Service part start
+================================= */
+
+.service .card {
+  width: 100% !important;
+}
+.service .card img {
+  width: 25%;
+}
+
+.service .card {
+  padding: 50px 35px;
+  border: 0;
+  -webkit-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  
+}
+.service .card .card-body {
+  padding: 0;
+}
+.service .card .card-body .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+  padding-top: 26px;
+  padding-bottom: 15px;
+}
+.service .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00413d;
+  font-family: "Jost", sans-serif;
+  padding-bottom: 30px;
+  width: 245px;
+}
+.service .card .card-body i {
+  font-size: 25px;
+  transition: .4s;
+}
+.service .card:hover i {
+  color: red;
+}
+
+
+/* ==============================
+
+Service part end
 ================================= */
