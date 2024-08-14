@@ -13,7 +13,29 @@ a {
   font-weight: 600;
   color: #e5745d;
   font-family: "Vollkorn", serif;
+  position: relative;
 }
+.title h4::after {
+  position: absolute;
+  top: 6px;
+  left: 41%;
+  width: 40px;
+  height: 2px;
+  background: #E5745D;
+  content: "";
+}
+.title h4::before {
+  position: absolute;
+  top: 5px;
+  left: 44%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+
 .title h2 {
   font-size: 50px;
   font-weight: 600;
@@ -88,7 +110,7 @@ Banner part start
 .overly {
   width: 40%;
   height: 100%;
-  background-image: url("../../images/images.jpg");
+  background-image: url("../images/images.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -156,6 +178,10 @@ Banner part end
 
 Service part start
 ================================= */
+.service {
+  padding-top: 220px;
+  padding-bottom: 120px;
+}
 
 .service .card {
   width: 100% !important;
@@ -203,4 +229,58 @@ Service part start
 /* ==============================
 
 Service part end
+================================= */
+/* ==============================
+
+About part Start
+================================= */
+.about{
+  padding-bottom: 120px;
+}
+.fristImage{
+  width: 62%;
+}
+
+
+
+.title2{
+  text-align: left;
+}
+.title2 h2{
+  width: auto;
+}
+.title2 h4{
+  margin-left: 60px;
+}
+.title2 h4::after {
+  position: absolute;
+  top: 9px;
+  left: -9%;
+  width: 40px;
+  height: 2px;
+  background: #E5745D;
+  content: "";
+}
+.title h4::before {
+  position: absolute;
+  top: 7px;
+  left: -13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+.about p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #00413D;
+  width: 570px;
+}
+
+/* ==============================
+
+About part end
 ================================= */
