@@ -5,6 +5,9 @@
 a {
   text-decoration: none;
 }
+ul,ol{
+  list-style: none;
+}
 .title {
   text-align: center;
 }
@@ -107,7 +110,7 @@ Banner part start
   position: relative;
   overflow: hidden;
 }
-.overly {
+.banner .overly {
   width: 40%;
   height: 100%;
   background-image: url("../images/images.jpg");
@@ -284,3 +287,149 @@ About part Start
 
 About part end
 ================================= */
+/* ==============================
+
+progresber part start
+================================= */
+.progresber {
+  padding-bottom: 120px;
+}
+
+.progresber .box{
+  width: 280px;
+  height: 280px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+ 
+
+}
+.progresber .box .progresber_box{
+  width: 167px;
+  height: 167px;
+  border: 8px solid #E5745D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progresber .box .progresber_box h2{
+color: #E5745D;
+font-size: 34px;
+font-weight: 600;
+font-family: "Vollkorn", serif;
+}
+.progresber .box h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+}
+/* ==============================
+
+progresber part end
+================================= */
+
+.title3 h4::before {
+  position: absolute;
+  top: 4px;
+  left: 44%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+.portfolio .card{
+  width: 100% !important;
+  position: relative;
+}
+.portfolio .card .card-body{
+  background: #00413D;
+}
+.portfolio .card .card-title{
+ font-size: 24px;
+ font-weight: 600;
+ color: #fff;
+ font-family: "Vollkorn", serif;
+}
+.portfolio .card .card-text{
+ font-size: 14px;
+ font-weight: 400;
+ color: #fff;
+ font-family: "Vollkorn", serif;
+}
+
+.portfolio .card .overly{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.4s;
+}
+.portfolio .card .overly .round{
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.portfolio .card:hover .overly .round{
+  opacity: 1;
+
+
+}
+.portfolio .card .overly .round i{
+ color: red;
+ font-size: 26px;
+
+
+}
+.portfolio .card:hover .overly {
+  opacity: 1;
+  background:rgba(0, 65, 61,0.4);
+
+
+}
+/* =============
+testmoinal start
+================ */
+ .testmoinal{
+  padding: 120px 0px;
+  margin: 120px 0px;
+  background: #F9F4F1;
+ }
+ .testmoinal .box1{
+  padding: 30px 40px;
+  background: #fff;
+  border-top: 8px solid #E5745D;
+position: relative;
+ }
+.testmoinal .box1 .icon_iamge {
+  position: absolute;
+  bottom: -33px;
+  left: 72px;
+}
+.testmoinal ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* =============
+testmoinal end
+================ */
