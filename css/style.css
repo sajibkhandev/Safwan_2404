@@ -433,3 +433,42 @@ position: relative;
 /* =============
 testmoinal end
 ================ */
+/* =============
+contact start
+================ */
+
+.contact img{
+  width: 100%;
+}
+.contact .input_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+  padding-bottom: 50px;
+
+}
+.contact .input{
+  width: 46%;
+  padding: 12px 10px;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 65, 61,0.1);
+  outline: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Jost", sans-serif;
+}
+.contact .input::placeholder{
+  font-size: 18px;
+  font-weight: 400;
+  color: #00413D;
+  font-family: "Jost", sans-serif;
+
+}
+.contact .input5{
+  width: 100%;
+}
+/* =============
+contact end
+================ */
