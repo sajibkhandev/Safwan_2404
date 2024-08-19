@@ -1,0 +1,340 @@
+@media (min-width:320px) and (max-width:575.99px){
+    
+    .banner {
+       
+        padding: 124px 0px;
+        
+    }
+    .navbar-brand img{
+        width: 80%;
+       
+    }
+    .navbar-collapse{
+        background: #317a8e;
+        text-align: center;
+
+    }
+   
+    .nav-link{
+        color: #fff;
+        padding: 20px 0px;
+
+    }
+    .navberbtn{
+        display: inline-block;
+    }
+    .navberbtn {
+       
+        padding: 16px 30px;
+       
+        
+    }
+    .navberbtn::after {
+        left: 9px;
+        top: 5px;
+        height: 47px;
+        width: 155px;
+       
+    }
+    .banner .overly{
+        width: 0px;
+    }
+    .banner h1 {
+        font-size: 33px;
+      
+    }
+    .banner p {
+        font-size: 16px;
+      
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+        line-height: 57px;
+        
+    }
+    .commonBtn::after {
+        
+        height: 48px;
+        width: 141px;
+        
+    }
+
+    /* service part  */
+    .title h4 {
+        font-size: 16px;
+        
+    }
+    .title h4::after {
+      
+        left: 17%;
+        
+    }
+    .title3 h4::before {
+        
+        left: 30%;
+        
+    }
+    .title h2 {
+        font-size: 29px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        font-size: 20px;
+       
+    }
+    .service .card .card-body .card-text {
+        font-size: 16px;
+        
+        width: auto;
+        padding-bottom: 17px;
+    }
+    .title h4::after {
+        left: -20%;
+    }
+    .about p {
+        font-size: 14px;
+        
+        width: auto;
+    }
+    .progresber .box .progresber_box {
+        width: 158px;
+        height: 158px;
+        
+    }
+    
+    /* service part  */
+    
+
+
+}
+@media (min-width:576px) and (max-width:767.99px){
+    
+    .banner {
+       
+        padding: 124px 0px;
+        
+    }
+    .navbar-brand img{
+        width: 80%;
+       
+    }
+    .navbar-collapse{
+        background: #317a8e;
+        text-align: center;
+
+    }
+   
+    .nav-link{
+        color: #fff;
+        padding: 20px 0px;
+
+    }
+    .navberbtn{
+        display: inline-block;
+    }
+    .navberbtn {
+       
+        padding: 16px 30px;
+       
+        
+    }
+    .navberbtn::after {
+        left: 9px;
+        top: 5px;
+        height: 47px;
+        width: 155px;
+       
+    }
+    .banner .overly{
+        width: 0px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 16px;
+      
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+        line-height: 57px;
+        
+    }
+    .commonBtn::after {
+        
+        height: 48px;
+        width: 141px;
+        
+    }
+
+    /* service part  */
+    .title h4 {
+        font-size: 16px;
+        
+    }
+    .title h4::after {
+      
+        left: 17%;
+        
+    }
+    .title3 h4::before {
+        
+        left: 30%;
+        
+    }
+    .title h2 {
+        font-size: 29px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        font-size: 20px;
+       
+    }
+    .service .card .card-body .card-text {
+        font-size: 16px;
+        
+        width: auto;
+        padding-bottom: 17px;
+    }
+    .title h4::after {
+        left: -20%;
+    }
+    .about p {
+        font-size: 14px;
+        
+        width: auto;
+    }
+    .progresber .box .progresber_box {
+        width: 158px;
+        height: 158px;
+        
+    }
+    
+    /* service part  */
+    
+
+
+}
+@media (min-width:768px) and (max-width:991.99px){
+    
+    .banner {
+       
+        padding: 124px 0px;
+        
+    }
+    .navbar-brand img{
+        width: 80%;
+       
+    }
+    .navbar-collapse{
+        background: #317a8e;
+        text-align: center;
+
+    }
+   
+    .nav-link{
+        color: #fff;
+        padding: 20px 0px;
+
+    }
+    .navberbtn{
+        display: inline-block;
+    }
+    .navberbtn {
+       
+        padding: 16px 30px;
+       
+        
+    }
+    .navberbtn::after {
+        left: 9px;
+        top: 5px;
+        height: 47px;
+        width: 155px;
+       
+    }
+    .banner .overly{
+        width: 0px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 16px;
+      
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+        line-height: 57px;
+        
+    }
+    .commonBtn::after {
+        
+        height: 48px;
+        width: 141px;
+        
+    }
+
+    /* service part  */
+    .title h4 {
+        font-size: 16px;
+        
+    }
+    .title h4::after {
+      
+        left: 17%;
+        
+    }
+    .title3 h4::before {
+        
+        left: 30%;
+        
+    }
+    .title h2 {
+        font-size: 29px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        font-size: 20px;
+       
+    }
+    .service .card .card-body .card-text {
+        font-size: 16px;
+        
+        width: auto;
+        padding-bottom: 17px;
+    }
+    .title h4::after {
+        left: -20%;
+    }
+    .about p {
+        font-size: 14px;
+        
+        width: auto;
+    }
+    .progresber .box .progresber_box {
+        width: 158px;
+        height: 158px;
+        
+    }
+    
+    /* service part  */
+    
+
+
+}
