@@ -24,17 +24,13 @@
         display: inline-block;
     }
     .navberbtn {
-       
-        padding: 16px 30px;
-       
-        
+        padding: 12px 24px;
     }
     .navberbtn::after {
-        left: 9px;
-        top: 5px;
-        height: 47px;
-        width: 155px;
-       
+        left: 7px;
+        top: 6px;
+        height: 40px;
+        width: 144px;
     }
     .banner .overly{
         width: 0px;
@@ -50,28 +46,26 @@
        
     }
     .commonBtn {
-        width: 153px;
-        height: 57px;
-        line-height: 57px;
-        
+        width: 138px;
+        height: 51px;
+        line-height: 51px;
     }
+   
     .commonBtn::after {
-        
-        height: 48px;
-        width: 141px;
-        
+        height: 43px;
+        width: 129px;
     }
 
     /* service part  */
+    .service {
+        padding-top: 108px;
+        padding-bottom: 87px;
+    }
     .title h4 {
         font-size: 16px;
         
     }
-    .title h4::after {
-      
-        left: 17%;
-        
-    }
+    
     .title3 h4::before {
         
         left: 30%;
@@ -83,6 +77,11 @@
         width: auto;
         
     }
+    .service .title h4::after {
+       
+        left: 18%;
+      
+    }
     .service .card .card-body .card-title {
         font-size: 20px;
        
@@ -93,9 +92,7 @@
         width: auto;
         padding-bottom: 17px;
     }
-    .title h4::after {
-        left: -20%;
-    }
+   
     .about p {
         font-size: 14px;
         
@@ -106,8 +103,133 @@
         height: 158px;
         
     }
+    .service .card .card-body i {
+        font-size: 18px;
+      
+    }
+    .service .card {
+        padding: 35px 35px;
+       
+    }
+    .service .card .card-body .card-text {
+        
+        padding-bottom: 0px;
+    }
+
     
     /* service part  */
+    
+    /* About part  */
+    .about .image_box{
+        display: block !important;
+    }
+    .about .image_box div{
+        display: block !important;
+        padding-top: 30px;
+    }
+    .about .image_box div img{
+        margin: 20px 0px;
+    }
+     .about .title2 h4::after {
+       
+        left: -17%;
+        width: 30px;
+        
+    }
+    
+    /* About part  */
+    /* potfolio part  */
+    .portfolio .title h4::after {
+        position: absolute;
+        top: 6px;
+        left: 20%;
+        width: 30px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+       
+    }
+    .portfolio .card .overly .round {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly .round i {
+        
+        font-size: 20px;
+    }
+    .testmoinal .title h4::after {
+      
+        left: 16%;
+        width: 22px;
+        
+    }
+    .testmoinal .title h4::before {
+      
+        left: 23%;
+        
+        
+    }
+    .testmoinal .box2{
+        padding: 20px !important;
+    }
+    .testmoinal .box2 h5{
+        font-size: 16px;
+    }
+    .testmoinal .box2 ul {
+        gap: 10px !important;
+    }
+    .testmoinal .box2 ul li{
+        font-size: 12px;
+    }
+   
+    /* potfolio part  */
+    /* contact part  */
+    .contact .title2 h4::after {
+        position: absolute;
+        top: 9px;
+        left: -21%;
+        width: 40px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .contact .input {
+        width: 100%;
+        padding: 6px 4px;
+        
+    }
+    /* contact part  */
+    /* Footer part  */
+
+    .footer{
+        text-align: left;
+        padding: 42px 0px;
+    }
+
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer .ulTwo ul {
+        gap: 20px !important;
+        justify-content: flex-start !important;
+    }
+    .footer .ulTwo ul li i {
+        
+        padding: 12px;
+       
+        font-size: 18px;
+    }
+    .copy p {
+        
+        width: auto;
+       
+        padding-top: 20px;
+    }
+    /* Footer part  */
     
 
 
@@ -138,23 +260,19 @@
         display: inline-block;
     }
     .navberbtn {
-       
-        padding: 16px 30px;
-       
-        
+        padding: 12px 24px;
     }
     .navberbtn::after {
-        left: 9px;
-        top: 5px;
-        height: 47px;
-        width: 155px;
-       
+        left: 7px;
+        top: 6px;
+        height: 40px;
+        width: 144px;
     }
     .banner .overly{
         width: 0px;
     }
     .banner h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .banner p {
         font-size: 16px;
@@ -163,28 +281,26 @@
        
     }
     .commonBtn {
-        width: 153px;
-        height: 57px;
-        line-height: 57px;
-        
+        width: 138px;
+        height: 51px;
+        line-height: 51px;
     }
+   
     .commonBtn::after {
-        
-        height: 48px;
-        width: 141px;
-        
+        height: 43px;
+        width: 129px;
     }
 
     /* service part  */
+    .service {
+        padding-top: 108px;
+        padding-bottom: 87px;
+    }
     .title h4 {
         font-size: 16px;
         
     }
-    .title h4::after {
-      
-        left: 17%;
-        
-    }
+    
     .title3 h4::before {
         
         left: 30%;
@@ -196,6 +312,9 @@
         width: auto;
         
     }
+    .service .title h4::after {
+        left: 23%;
+    }
     .service .card .card-body .card-title {
         font-size: 20px;
        
@@ -206,9 +325,7 @@
         width: auto;
         padding-bottom: 17px;
     }
-    .title h4::after {
-        left: -20%;
-    }
+   
     .about p {
         font-size: 14px;
         
@@ -219,13 +336,141 @@
         height: 158px;
         
     }
+    .service .card .card-body i {
+        font-size: 18px;
+      
+    }
+    .service .card {
+        padding: 35px 35px;
+       
+    }
+    .service .card .card-body .card-text {
+        
+        padding-bottom: 0px;
+    }
+    .progresber .box {
+        width: 258px;
+        height: 271px;
+       
+    }
+
     
     /* service part  */
+    
+    /* About part  */
+    .about .image_box{
+        display: block !important;
+    }
+    .about .image_box div{
+        display: block !important;
+        padding-top: 30px;
+    }
+    .about .image_box div img{
+        margin: 20px 0px;
+    }
+    .about .title2 h4::after {
+        left: -11%;
+        width: 41px;
+    }
+    
+    /* About part  */
+    /* potfolio part  */
+    .portfolio .title h4::after {
+        position: absolute;
+        top: 6px;
+        left: 20%;
+        width: 30px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+       
+    }
+    .portfolio .card .overly .round {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly .round i {
+        
+        font-size: 20px;
+    }
+    .testmoinal .title h4::after {
+      
+        left: 16%;
+        width: 22px;
+        
+    }
+    .testmoinal .title h4::before {
+      
+        left: 23%;
+        
+        
+    }
+    .testmoinal .box2{
+        padding: 20px !important;
+    }
+    .testmoinal .box2 h5{
+        font-size: 16px;
+    }
+    .testmoinal .box2 ul {
+        gap: 10px !important;
+    }
+    .testmoinal .box2 ul li{
+        font-size: 12px;
+    }
+   
+    /* potfolio part  */
+    /* contact part  */
+    .contact .title2 h4::after {
+        position: absolute;
+        top: 9px;
+        left: -21%;
+        width: 40px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .contact .input {
+        width: 100%;
+        padding: 6px 4px;
+        
+    }
+    /* contact part  */
+    /* Footer part  */
+
+    .footer{
+        text-align: left;
+        padding: 42px 0px;
+    }
+
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer .ulTwo ul {
+        gap: 20px !important;
+        justify-content: flex-start !important;
+    }
+    .footer .ulTwo ul li i {
+        
+        padding: 12px;
+       
+        font-size: 18px;
+    }
+    .copy p {
+        
+        width: auto;
+       
+        padding-top: 20px;
+    }
+    /* Footer part  */
     
 
 
 }
-@media (min-width:768px) and (max-width:991.99px){
+@media (min-width:768px) and (max-width:991px){
     
     .banner {
        
@@ -251,17 +496,13 @@
         display: inline-block;
     }
     .navberbtn {
-       
-        padding: 16px 30px;
-       
-        
+        padding: 12px 24px;
     }
     .navberbtn::after {
-        left: 9px;
-        top: 5px;
-        height: 47px;
-        width: 155px;
-       
+        left: 7px;
+        top: 6px;
+        height: 40px;
+        width: 144px;
     }
     .banner .overly{
         width: 0px;
@@ -276,28 +517,26 @@
        
     }
     .commonBtn {
-        width: 153px;
-        height: 57px;
-        line-height: 57px;
-        
+        width: 138px;
+        height: 51px;
+        line-height: 51px;
     }
+   
     .commonBtn::after {
-        
-        height: 48px;
-        width: 141px;
-        
+        height: 43px;
+        width: 129px;
     }
 
     /* service part  */
+    .service {
+        padding-top: 108px;
+        padding-bottom: 87px;
+    }
     .title h4 {
         font-size: 16px;
         
     }
-    .title h4::after {
-      
-        left: 17%;
-        
-    }
+    
     .title3 h4::before {
         
         left: 30%;
@@ -309,6 +548,9 @@
         width: auto;
         
     }
+    .service .title h4::after {
+        left: 23%;
+    }
     .service .card .card-body .card-title {
         font-size: 20px;
        
@@ -319,9 +561,7 @@
         width: auto;
         padding-bottom: 17px;
     }
-    .title h4::after {
-        left: -20%;
-    }
+   
     .about p {
         font-size: 14px;
         
@@ -332,8 +572,135 @@
         height: 158px;
         
     }
+    .service .card .card-body i {
+        font-size: 18px;
+      
+    }
+    .service .card {
+        padding: 35px 35px;
+       
+    }
+    .service .card .card-body .card-text {
+        
+        padding-bottom: 0px;
+    }
+    .progresber .box {
+        width: 258px;
+        height: 271px;
+       
+    }
+
     
     /* service part  */
+    
+    /* About part  */
+    .about .image_box{
+        display: block !important;
+    }
+    .about .image_box div{
+        display: block !important;
+        padding-top: 30px;
+    }
+    .about .image_box div img{
+        margin: 20px 0px;
+    }
+    .about .title2 h4::after {
+        left: -11%;
+        width: 41px;
+    }
+    
+    /* About part  */
+    /* potfolio part  */
+    .portfolio .title h4::after {
+        position: absolute;
+        top: 6px;
+        left: 20%;
+        width: 30px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+       
+    }
+    .portfolio .card .overly .round {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly .round i {
+        
+        font-size: 20px;
+    }
+    .testmoinal .title h4::after {
+      
+        left: 16%;
+        width: 22px;
+        
+    }
+    .testmoinal .title h4::before {
+      
+        left: 23%;
+        
+        
+    }
+    .testmoinal .box2{
+        padding: 20px !important;
+    }
+    .testmoinal .box2 h5{
+        font-size: 16px;
+    }
+    .testmoinal .box2 ul {
+        gap: 10px !important;
+    }
+    .testmoinal .box2 ul li{
+        font-size: 12px;
+    }
+   
+    /* potfolio part  */
+    /* contact part  */
+    .contact .title2 h4::after {
+        position: absolute;
+        top: 9px;
+        left: -21%;
+        width: 40px;
+        height: 2px;
+        background: #E5745D;
+        content: "";
+    }
+    .contact .input {
+        width: 46%;
+        padding: 6px 4px;
+    }
+    /* contact part  */
+    /* Footer part  */
+
+    .footer{
+        text-align: left;
+        padding: 42px 0px;
+    }
+
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer .ulTwo ul {
+        gap: 20px !important;
+        justify-content: flex-start !important;
+    }
+    .footer .ulTwo ul li i {
+        
+        padding: 12px;
+       
+        font-size: 18px;
+    }
+    .copy p {
+        
+        width: auto;
+       
+        padding-top: 20px;
+    }
+    /* Footer part  */
     
 
 
